@@ -1,0 +1,143 @@
+body{
+	font-family: "times new roman", calibri, serif;
+	font-size: 15px;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-family: "times new roman";
+	font-size: 40px;
+	text-align: center;
+	font-weight: normal;
+}
+header{
+    height: 100px;
+}
+footer{
+	height: 80px;
+	padding-top: 31px;
+	text-align: center;
+	background-color: #FFE4E1;
+	border-top: inset blue;
+}
+nav{
+    width: 100%;
+    background-color: grey;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}	
+nav li{
+    float: left;
+    list-style-type: none;	
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;	
+	color: white;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	font-size: 15px;
+}	
+.table{
+	display: table;
+	margin:0 auto;
+}
+.som:hover{
+	border-top: 6px solid #F08080;
+	background-color: rgb(240, 128, 128, 0.15);
+}
+.Presentation{
+	border-top:6px solid #00BFFF;
+	background-color: rgb(0, 191, 255, 0.15);
+}
+.con:hover, .tableau{
+    border-top: 6px solid #DDA0DD;
+    background-color: rgb(221, 160, 221, 0.5);	
+}
+.parcours{
+	border-top: 6px solid #FFA07A;
+	background-color: rgb(255, 160, 122, 0.15);
+}	
+.exp:hover, .Competences{
+    border-top: 6px solid #00FF7F;
+    background-color: rgb(0, 255, 127, 0.5);
+}
+.loi:hover, .loisirs{
+    border-top: 6px solid #FFD700;
+    background-color: rgb(255, 215, 0, 0.5);	
+}
+.contact{
+	border-top: 6px solid #FFC800;
+	background-color: rgb(255, 140, 0, 0.15);
+}
+section, table{
+    width:100%;
+    min-height:250px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+.pright{
+	text-align: right;
+}
+.sec{
+    margin:0px 10px;
+}
+.left{
+    float:left;
+    width:30%;
+}
+.right{
+	float:left;
+	width:70%
+}
+.cleft, .cright, .sousleft, .sousright{
+    width:50%;
+	float:left;
+}
+.sec::after{
+    content:"";
+    display:table;
+    clear:both;
+}	
+.hsec{
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+
+	
+}
+td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+.palev{
+	background-color: #DB7093;
+}
+.papaya{
+	background-color: #FFEFD5;
+}	
+
+	
+@media screen and (max-width=750px){
+	header{
+		height:45px
+	}
+    h1{
+        font-size:small
+        margin: 10px 
+    }
+    nav li{
+        font-size:small
+        padding:10px
+    }
+}	
+	
+	
+	
+	
+
+	
